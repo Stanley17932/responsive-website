@@ -6,6 +6,10 @@
    .about-containers{
     flex-wrap: wrap;
    }
+   #contact,
+   #projects{
+    height: fit-content;
+   }
 }
 
 
@@ -16,20 +20,23 @@
     #hamburger-nav{
         display: flex;
     }
-    #experience, .experience-details-container{
+    #experience, 
+    .experience-details-container{
         margin-top: 2rem;
 
     }
-    #profile, .section-container{
+    #profile, 
+    .section-container{
         display: block;
     }
     .arrow{
         display: none;
     }
-    setion, .section-container{
+    section, 
+    .section-container{
         height: fit-content;
     }
-    .section{
+    section{
         margin: 0 5%;
     }
     .section__pic-container{
@@ -67,11 +74,12 @@
     .contact-info-container{
         margin: 0;
     }
-    .contact-info-container p, .nav-links li a{
+    .contact-info-container p, 
+    .nav-links li a{
         font-size: 1rem;
     }
     .experience-sub-title{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     .logo{
         font-size: 1.5rem;
