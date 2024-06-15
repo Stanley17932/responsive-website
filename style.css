@@ -313,7 +313,7 @@ section {
 }
 
 .article-container{
-    display: flex; 
+    display: flex;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
@@ -331,3 +331,5 @@ article{
 article .icon{
     cursor: default;
 }
+
+/* Projects Section */
